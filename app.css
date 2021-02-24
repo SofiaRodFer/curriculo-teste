@@ -1,0 +1,148 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-border {
+    border: 1px solid lightgrey;
+    padding: 0 0 3rem 0;
+}
+
+.firstrow {
+    margin-top: 4em;
+}
+
+.profile-picture {
+    /* position: relative; */
+    /* z-index: 1; */
+    border-radius: 100%;
+    margin-left: -6rem;
+    margin-top: -11rem;
+    display: inline-block;
+    height: 15rem;
+    width: 15rem;
+}
+
+.competencias {
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+}
+
+.display-2 {
+    font-weight: 700;
+    color: #E5C5D0;
+    letter-spacing: 0.3rem;
+    font-size: 1.5rem;
+}
+
+.display-3 {
+    font-weight: normal;
+    color: #555555;
+    font-size: 0.9rem;
+    margin-bottom: 3rem;
+}
+
+.display-4 {
+    font-weight: 900;
+    color: #555555;
+    letter-spacing: 0.4rem;
+    font-size: 4rem;
+    margin-left: -11rem;
+}
+
+.pink-rectangle-start {
+    display: inline-block;
+    margin-left: -0.7rem;
+    z-index: 0;
+    margin-top: 1.42rem;
+    height: 12rem;
+    width: 18rem;
+    background-color: #E5C5D0;
+}
+
+.bottom-line {
+    background-color: #E5C5D0;
+    height: 4rem;
+    width: auto;
+}
+
+/* EXTRA PEQUENO */
+@media (min-width: 0px) {
+    .pink-rectangle-start {
+        height: 12rem;
+        width: 18rem;
+    }
+    .profile-picture {
+        margin-top: -14rem;
+        margin-left: 7rem;
+    }
+    .display-4 {
+        margin-top: 16.5rem;
+        margin-left: -14rem;
+        font-size: 2rem;
+        margin-bottom: 4rem;
+    }
+    .display-2 {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+    }
+    .display-3 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* PEQUENO */
+@media (min-width: 576px) {
+    .display-4 {
+        margin-top: 2rem;
+        margin-left: 6rem;
+        font-size: 2.5rem;
+    }
+    .display-2 {
+        margin-left: -5rem;
+        margin-right: -5rem;
+        margin-top: 1rem;
+    }
+    .display-3 {
+        margin-left: -5rem;
+        margin-right: -5rem;
+    }
+}
+
+/* MÉDIO */
+@media (min-width: 768px){
+    .display-4 {
+        font-size: 3rem;
+        margin-left: -0.5rem;
+        margin-top: 2rem;
+    }
+    .display-2 {
+        margin-left: 0.8rem;
+        margin-right: 0.8rem;
+        margin-top: 0.8rem;
+    }
+    .display-3 {
+        margin-left: 0.8rem;
+        margin-right: 0.8rem;
+    }
+}
+
+/* EXTRA GRANDE */
+@media (min-width: 1200px) {
+    .display-4 {
+        font-size: 4rem;
+        margin-right: 12rem;
+        margin-left: 6rem;
+        margin-top: 1rem;
+    }
+    .display-2 {
+        margin-left: 0.8rem;
+        margin-right: 0.8rem;
+        margin-top: 0.8rem;
+    }
+    .display-3 {
+        margin-left: 0.8rem;
+        margin-right: 0.8rem;
+    }
+}
